@@ -10,8 +10,10 @@ html {
 }
 @media only screen and (max-width: 600px) {
     nav {
-      position: float;
-        width: 100%}
+        position: fixed;
+        top: 0px;
+        width: 100%; 
+    }
 }
 nav {
     position: fixed;
@@ -20,7 +22,7 @@ nav {
 }
 ul {
     list-style-type: none;
-  }
+}
 .content {
     width: 75%;
     margin-left: 200px;
