@@ -1,18 +1,32 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 * {
     box-sizing: border-box;
   }
 .main {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     position: relative;
+    max-width: 800px;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+      position: float;
+        width: 100%}
 }
 nav {
     position: fixed;
     left: 0px;
-    width: 200px;
+    width: 25%;
 }
+ul {
+    list-style-type: none;
+  }
 .content {
+    width: 75%;
     margin-left: 200px;
 }
+
 .header {
+    width: 75%;
     margin-left: 200px;
 }
