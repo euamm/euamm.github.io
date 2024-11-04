@@ -6,29 +6,33 @@ html {
   }
 .main {
     position: relative;
-    max-width: 800px;
+    max-width: 950px;
 }
 @media only screen and (max-width: 600px) {
     nav {
-        position: fixed;
+        position: top;
         top: 0px;
-        width: 100%; 
+        text-align: left;
     }
+    li {
+        display: inline;
+    }
+    
 }
-nav {
-    position: fixed;
-    left: 0px;
-    width: 25%;
-}
-ul {
+@media only screen and (min-width: 600px) {
+    nav {
+        position: fixed;
+        left: 0px;
+} 
+    ul {
     list-style-type: none;
 }
-.content {
-    width: 75%;
+
+    .header {
     margin-left: 200px;
+}
+    .content {
+    margin-left: 200px;
+}
 }
 
-.header {
-    width: 75%;
-    margin-left: 200px;
-}
