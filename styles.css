@@ -1,8 +1,18 @@
-body {
+* {
+    box-sizing: border-box;
+  }
+.main {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: relative;
 }
-
-h1 {
-    text-align: center;
-    margin: 30px;
+nav {
+    position: fixed;
+    left: 0px;
+    width: 200px;
+}
+.content {
+    margin-left: 200px;
+}
+.header {
+    margin-left: 200px;
 }
