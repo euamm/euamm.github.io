@@ -13,10 +13,11 @@ body {
     }
   
     .sidebar {
-      width: 70%;
+      max-width: auto;
       height: auto;
       text-align: center;
       flex-wrap: wrap;
+      flex: 1;
     }
 
     .sidebar ul{
@@ -35,7 +36,6 @@ body {
       padding-right: 20px;
     }
     .sidebar {
-        flex: 0;
         width: 300px;
         margin-right: 20px;
         margin-top: 10px;
@@ -96,5 +96,15 @@ body {
 
 .content {
     max-width: 760px;
+  }
+
+.sidebar {
+    flex: 0;
+    max-width: 300px;
+}
+
+  ul {
+    position: sticky;
+    top: 20px;
   }
 }
