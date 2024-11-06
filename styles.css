@@ -52,7 +52,7 @@ body {
         text-align: center;
         color: inherit;
         padding: 5px;
-        text-decoration: none;
+        text-decoration: underline;
     }
     .sidebar ul li:hover {
         text-decoration: underline;
@@ -81,7 +81,21 @@ body {
     .main {
         margin: 0px
     }
+
+    .in_text_link {
+        border: 3px solid #FF8674;
+        border-radius: 5px;
+        border-style: solid;
+        text-decoration: underline;
+        color: inherit
+      }
     
+      .in_text_link:hover {
+        text-decoration: underline;
+        color: inherit;
+        background-color: #FF8674;
+        border-color: #FF8674;
+      }
   }
 
   @media screen and (min-width: 600px) {
