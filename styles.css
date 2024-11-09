@@ -87,7 +87,9 @@ body {
         border-radius: 5px;
         border-style: solid;
         text-decoration: underline;
-        color: inherit
+        color: inherit;
+        white-space: nowrap;
+
       }
     
       .in_text_link:hover {
